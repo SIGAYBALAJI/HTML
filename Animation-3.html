@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Animation properties</title>
+        <style>
+            p{border:20px solid green;
+            width:300px;
+            height:300px;
+                /*
+           
+                animation-name:sep;
+            animation-duration:5s;
+                animation-iteration-count: infinite;*/
+                animation: ani3 6s infinite;
+                position:relative;
+            }
+            @keyframes ani3
+            {
+                0%{background-color:red;
+                    top:0px;
+                    left:0px;
+                border:20px solid balck;
+                    border-radius: 20px;
+                }
+                25%{background-color:blue;
+                    top:0px;
+                    left:300px
+                 border:20px dashed yellow;
+                     border-radius:0px 20px;
+                }
+                50%{background-color:yellow;
+                    top:300px;
+                    left:300px;
+                 border:20px groove pink;
+                }
+                75%{background-color:aqua;
+                    top:300px;
+                    left:0px;
+                    border:20px dotted balck;
+                }
+               100%{background-color:red;
+                   top:0px;
+                   left:0px;
+                 border:20px groove brown;
+                }
+               }
+            }
+        </style>
+    </head>
+    <body>
+        <p></p>
+    </body>
+</html>

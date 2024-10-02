@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Animation properties</title>
+        <style>
+            p{border:20px groove green;
+            width:400px;
+            height:400px;
+                /*
+           
+                animation-name:sep;
+            animation-duration:5s;
+                animation-iteration-count: infinite;*/
+                animation: sep 5s infinite;
+            }
+            @keyframes sep
+            {
+                from{background-color:yellow;}
+                to{background-color: red;
+                border:20px dotted yellow;}
+            }
+        </style>
+    </head>
+    <body>
+        <p></p>
+    </body>
+</html>

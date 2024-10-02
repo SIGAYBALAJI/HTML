@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+    <head><title>Border-radius</title>
+    <style>
+        h3{
+            color:red;
+            font-family:cursive;
+        }
+       #first{
+            border-top:green 5px dotted;width:200px;
+            border-left:yellow 10px solid;height:200px;
+            border-right:pink 8px groove;
+            border-bottom: orange 5px dotted;
+           
+          
+           
+        }
+        #one{
+            border:2px solid red;
+            height: 200px;
+            width:200px;
+            background-color: green;
+            border-radius: 150px;
+        }
+        #two{
+            border:2px solid red;
+            height: 200px;
+            width:200px;
+            background-color: green;
+            border-radius: 150px 0px;
+        }
+        #three{
+            border:2px solid red;
+            height: 200px;
+            width:200px;
+            background-color: green;
+            border-radius: 100px 0px 50px;
+        }
+             #four{
+            border:2px solid red;
+            height: 200px;
+            width:200px;
+            background-color: green;
+            border-radius: 50px 80px 50px 100px;
+        }
+    </style>
+    </head>
+    <body>
+        <h3>border-radius property can have 1-4 values:</h3>
+        
+        <p id="first"> </p>
+        <hr>
+        <h3>border-radius with 1 value: this value will get apply for all the four corners. </h3>
+        
+        <p id="one"></p>
+        <hr>
+         <h3>border-radius with 2 value:first value applies to top-left and bottom-rigth corners, second values applies to top-right and bottom-left corners. </h3>
+        <p id="two"></p>
+        <hr>
+         <h3>border-radius with 3 value:first value applies to top-left corner,second values applies to top-right and bottom-left corners and third value applies to bottom right corner </h3>
+        <p id="three"></p>
+         <hr>
+         <h3>border-radius with 4 value:first value applies to top-left corner,second values applies to top-right corner,third value applies to bottom right corner and fourth value applies to bottom-left corner.</h3>
+        <p id="four"></p>
+    </body>
+
+    
+</html>

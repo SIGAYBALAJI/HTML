@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Animation properties</title>
+        <style>
+            p{border:20px solid black;
+            width:300px;
+            height:300px;
+                /*
+           
+                animation-name:sep;
+            animation-duration:5s;
+                animation-iteration-count: infinite;*/
+                animation: sep 6s infinite;
+            }
+            @keyframes sep
+            {
+                0%{background-color:red;
+                border:20px solid balck;
+                    border-radius: 20px;
+                }
+                25%{background-color:blue;
+                 border:20px dashed yellow;
+                     border-radius:0px 20px;
+                }
+                50%{background-color:yellow;
+                 border:20px groove pink;
+                }
+                75%{background-color:aqua;
+                    border:20px dotted balck
+                }
+               100%{background-color:red;
+                 border:20px groove brown;
+                }
+               }
+            }
+        </style>
+    </head>
+    <body>
+        <p></p>
+    </body>
+</html>
