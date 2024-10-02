@@ -1,0 +1,10 @@
+<!doctype>
+<html>
+<body>
+
+<h1>html cite element define the title of a work</h1>
+<p>display in  a italic</p>
+<img src="img_the_scream.jpg" width="220" height="277" alt="the scream">
+<p><cite>the scream</cite> by  edvard munch.painted in 1893.</p>
+</body>
+</html>
